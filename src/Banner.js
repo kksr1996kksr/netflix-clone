@@ -29,7 +29,8 @@ function Banner() {
       className="banner"
       style={{
         backgroundSize: "cover",
-        backgroundImage: `url(
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.2)), url(
             "https://image.tmdb.org/t/p/original/${movie?.backdrop_path}"
         )`,
         backgroundPosition: "center center",
